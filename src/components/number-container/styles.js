@@ -4,15 +4,17 @@ import { colors } from "../../constants";
 
 export const styles = StyleSheet.create({
   container: {
-    backgroundColor: colors.primary,
-    height: 120,
+    width: 55,
+    height: 55,
     justifyContent: "center",
     alignItems: "center",
-    paddingTop: 20,
+    backgroundColor: colors.secondary,
+    borderColor: colors.primary,
+    borderWidth: 2,
+    borderRadius: 5,
   },
-  title: {
-    fontSize: 20,
+  number: {
+    fontSize: 22,
     fontFamily: "Karma-Bold",
-    color: colors.white,
   },
 });

@@ -9,6 +9,7 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: 18,
+    fontFamily: "Karma-Medium",
     color: colors.text,
     textAlign: "center",
     paddingVertical: 20,
@@ -24,6 +25,7 @@ export const styles = StyleSheet.create({
     color: colors.text,
     paddingVertical: 5,
     textAlign: "center",
+    fontFamily: "Karma-Regular",
   },
   input: {
     width: "100%",
@@ -39,5 +41,16 @@ export const styles = StyleSheet.create({
     width: "75%",
     justifyContent: "space-around",
     marginTop: 20,
+  },
+  confirmedContainer: {
+    width: "75%",
+    height: 180,
+    justifyContent: "space-around",
+    alignItems: "center",
+    marginVertical: 30,
+  },
+  confirmedTitle: {
+    fontSize: 16,
+    fontFamily: "Karma-Regular",
   },
 });
